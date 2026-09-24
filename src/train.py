@@ -210,3 +210,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Reproducibility is controlled by config.RANDOM_SEED (split + folds).
