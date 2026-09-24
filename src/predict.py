@@ -195,3 +195,5 @@ if __name__ == "__main__":
     except ValueError as exc:
         print(f"Validation error: {exc}", file=sys.stderr)
         sys.exit(1)
+
+# Used by the Streamlit dashboard and the smoke tests in tests/.
