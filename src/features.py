@@ -35,4 +35,5 @@ def add_derived_features(df):
         df["Battery Capacity (kWh)"] * df["SOC Gain (%)"] / 100.0
     )
 
+    # All derived features are built from inputs only - no target leakage.
     return df
