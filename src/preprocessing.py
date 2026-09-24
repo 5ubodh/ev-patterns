@@ -49,4 +49,6 @@ def clean_dataframe(df):
                 print(f"Clipped {n} negative values in '{col}' to 0.")
             df[col] = df[col].clip(lower=0.0)
 
+    # Median imputation is not done here; it happens inside the sklearn
+    # pipeline so cross-validation never leaks information.
     return df
