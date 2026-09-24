@@ -40,4 +40,5 @@ def load_dataset(explicit_path=None):
     if df.empty:
         raise ValueError(f"The dataset at '{path}' is empty.")
     print(f"Loaded {len(df)} rows and {df.shape[1]} columns from: {path}")
+    # Nothing else happens here; cleaning lives in preprocessing.py.
     return df
