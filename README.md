@@ -238,3 +238,5 @@ are rejected with clear messages.
 ---
 
 **Stack:** Python · pandas · scikit-learn · joblib · Streamlit · matplotlib
+
+*Built with beginner readability in mind.*
