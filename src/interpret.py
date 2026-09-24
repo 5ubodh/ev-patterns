@@ -117,3 +117,5 @@ def compute_interpretability():
 
 if __name__ == "__main__":
     compute_interpretability()
+
+# Interpretation output is merged into models/metadata.json.
