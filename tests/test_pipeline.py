@@ -104,3 +104,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Run with: python tests/test_pipeline.py (no pytest required).
