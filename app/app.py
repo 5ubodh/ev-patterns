@@ -270,3 +270,5 @@ if model_ready:
 
 else:
     st.stop()
+
+# End of the dashboard. Sections: predict | model | importance | data.
