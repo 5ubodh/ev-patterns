@@ -71,3 +71,5 @@ DERIVED_FEATURES = [
     "Energy per km (kWh/km)",
     "Potential Energy (kWh)",
 ]
+
+# NOTE: adjust the paths in this file if you ever move the project folders.
