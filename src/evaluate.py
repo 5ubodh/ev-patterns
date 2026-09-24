@@ -88,3 +88,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Results are stored in models/; run 'python -m src.train' first.
