@@ -1,0 +1,19 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated model artifacts (recreate with: python -m src.train)
+models/*.joblib
+models/*.json
+models/*.csv
+
+# OS / editor
+.DS_Store
+.vscode/
